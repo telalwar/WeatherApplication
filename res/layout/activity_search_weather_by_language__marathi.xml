@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterZipcode1" />
+
+    <EditText
+        android:id="@+id/etValue_marathi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EnterHere1"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/butFind_marathi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Find1" /> 
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
